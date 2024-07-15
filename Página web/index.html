@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Estilos para la cabecera */
+        .head {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 50px;
+            padding: 10px; /* Ajusta el padding según necesites */
+        }
+
+        .logo img {
+            width: 100px; /* Ajusta el tamaño del logo según necesites */
+            height: auto; /* Mantiene la proporción */
+        }
+
+        /* Estilos para la barra de navegación */
+        .navbar {
+            background-color: #020202;
+            display: flex;
+            justify-content: center;
+            padding: 10px; /* Ajusta el padding según necesites */
+        }
+
+        .navbar a {
+            margin: 0 10px; /* Espaciado entre enlaces */
+            text-decoration: none;
+            color: #ffffff;
+            position: relative; /* Posición relativa para posicionar la caja */
+            transition: color 0.3s ease; /* Transición para el color del texto */
+        }
+
+        .navbar a:hover {
+            color: #ffcc00; /* Cambia el color del texto al pasar el cursor */
+        }
+
+        .navbar .dropdown {
+            position: absolute;
+            top: 50px; /* Ajusta según la altura deseada */
+            left: 50%; /* Centra la caja debajo del enlace */
+            transform: translateX(-50%);
+            display: none;
+            background-color: #ffffff;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            z-index: 1; /* Asegura que esté encima de otros elementos */
+            opacity: 0; /* Inicialmente oculto */
+            transition: opacity 0.3s ease; /* Transición para la opacidad */
+        }
+
+        .navbar a:hover .dropdown {
+            display: block; /* Mostrar la caja cuando se pasa el cursor sobre el enlace */
+            opacity: 1; /* Hacer visible con una transición suave */
+        }
+
+        .dropdown img {
+            width: 150px; /* Ajusta el tamaño de las imágenes según necesites */
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            transition: transform 0.3s ease; /* Transición para el tamaño de la imagen */
+        }
+
+        .navbar a:hover .dropdown img {
+            transform: scale(1.1); /* Efecto de escala al pasar el cursor */
+        }
+    </style>
+
+    <title>S & S</title>
+
+</head>
+<body>
+
+    <div class="head">
+        <div class="logo">
+            <a href="#">
+                <img src="img/Picsart_24-07-12_16-51-19-775.png" alt="Logo" />
+            </a>
+        </div>
+
+        <nav class="navbar">
+            <a href="#">
+                No
+                <div class="dropdown">
+                    <img src="img/1 nav.png" alt="Imagen 1">
+                </div>
+            </a>
+            <a href="#">
+                Olvides
+                <div class="dropdown">
+                    <img src="img/2 nav.jpg" alt="Imagen 2">
+                </div>
+            </a>
+            <a href="#">
+                Que
+                <div class="dropdown">
+                    <img src="img/3 nav.jpg" alt="Imagen 3">
+                </div>
+            </a>
+            <a href="#">
+                Te
+                <div class="dropdown">
+                    <img src="img/4 nav.jpg" alt="Imagen 4">
+                </div>
+            </a>
+            <a href="#">
+                Espero
+                <div class="dropdown">
+                    <img src="img/5 nav.jpg" alt="Imagen 5">
+                </div>
+            </a>
+        </nav>
+    </div>
+
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif; /* Fuente predeterminada para todo el cuerpo */
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Estilos para el header */
+        header {
+            font-family: 'Times New Roman', Times, serif; /* Cambia la fuente del header */
+            text-align: center; /* Centra el texto */
+            background-color: #f0f0f0; /* Color de fondo */
+            padding: 150px; /* Espaciado interno */
+        }
+
+        /* Estilos para los párrafos */
+        p {
+            font-family: 'Arial', sans-serif; /* Cambia la fuente de los párrafos */
+            line-height: 1.6; /* Ajusta el interlineado según sea necesario */
+            margin-bottom: 0px; /* Espacio inferior entre párrafos */
+        }
+    </style>
+
+
+    <header class="content header">
+        <h2 class="title">Un Cálido Frío</h2>
+        <p>Más frío que calor hacia esa madrugada cuando me armé de valor y decidí ir a conocerte.
+        El miedo que sentía por alguna razón es memorable, no puedo comprender del todo como es que bastó
+        una noche para darme cuenta que contigo no quería solo "momentos", sino que quería compartir sentimientos.
+        Sentimientos donde no tenía idea de si tú sentías lo mismo por mi, y si era así, estuvieras dispuesta
+        a dejarlo todo y focalizar tus emociones en ese sentmiendo que al día de hoy nos mantiene unidos.
+        Fueron meses dificiles, dónde la rabia, enojo, desconfianza, desesperanza, incertidumbre, y un montón de
+        emociones explosivas, llenaban nuestras horas cortas dónde podíamos hablar.
+
+        Cada detalle de ti, fui memorizandolo hasta que se hicieron parte de mi mente dónde si escuchaba tu nombre,
+        mi mente de inhundaba de recuerdos, momentos y partes de ti que hacían que mis ojos se iluminaran.
+
+        Cada desafío superado, cada obstáculo vencido, solo ha reafirmado que contigo quiero seguir creciendo, aprendiendo y amando. 
+        Eres mi confidente más fiel, mi cómplice en las locuras y mi inspiración para ser mejor cada día.
+
+        Somos una historia que seguirá siendo contada en cada latido de nuestros corazones. 
+        Gracias por llenar mis días de felicidad y por hacer de cada momento una aventura inolvidable.
+      
+        </p>
+
+        <div class="btn:home">
+            <a href="#" class="btn">09</a>
+            <a href="#" class="btn">06</a>
+            <a href="#" class="btn">2024</a>
+        </div>
+    </header>
+
+    <section class="content sau">
+        <h2 class="title">tiempo</h2>
+        <p>Tiempo fue lo que no necesité para saber que te quería a mi lado</p>
+    
+        <div class="box-container">
+            <div class="box box-1">
+                <i class="fab fa-angular"></i>
+                <h3>A</h3>
+                <p>Quién diría que nuestras almas bailarían a poca luz y serían felices</p>    
+            </div>
+            <div class="box box-2">
+                <i class="fab fa-apple"></i>
+                <h3>B</h3>
+                <p>Tú encontraste el modo de darle envidia a la luna</p>    
+            </div>
+            <div class="box box-3">
+                <i class="fab fa-android"></i>
+                <h3>C</h3>
+                <p>Pasará el tiempo y seguiré escogiéndote mil veces</p>    
+            </div>
+        </div>
+    </section>
+
+    <section class="content about">
+        <h2 class="title">Hogar</h2>
+        <p>Logré encontrar otro significado a la palabra "hogar" cuando me abrazaste por primera vez.</p>
+        <p>Te convertiste en mi lugar seguro, en la chimenea que me da calor cuando siento frío.</p>
+        <p>En esa taza de café caliente que me acompaña cuando miro el amancer a través de mi ventana.</p>
+        <a href="#" class="btn">No Olvides Que Te Espero</a>
+    </section>
+
+    <section class="audio-list" style="background-image: url('img/inferior.jpg');">
+        <h2 style="color: #fff;">Música</h2>
+        <ul>
+            <li>
+                <div>
+                    <span style="font-size: 18px; font-weight: bold; color: #fff;">A Poca Luz</span>
+                    <button onclick="toggleAudio('audio1')">Play/Pause</button>
+                    <input type="range" onchange="setTime('audio1', this.value)" />
+                </div>
+            </li>
+            <li>
+                <div>
+                    <span style="font-size: 18px; font-weight: bold; color: #fff;">Mi Fortuna (remix)</span>
+                    <button onclick="toggleAudio('audio2')">Play/Pause</button>
+                    <input type="range" onchange="setTime('audio2', this.value)" />
+                </div>
+            </li>
+            <li>
+                <div>
+                    <span style="font-size: 18px; font-weight: bold; color: #fff;">Mil Veces</span>
+                    <button onclick="toggleAudio('audio3')">Play/Pause</button>
+                    <input type="range" onchange="setTime('audio3', this.value)" />
+                </div>
+            </li>
+        </ul>
+    
+        <audio id="audio1">
+            <source src="img/A Poca Luz.mpeg" type="audio/mpeg">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+        <audio id="audio2">
+            <source src="img/Mi Fortuna (remix).mp3" type="audio/mpeg">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+        <audio id="audio3">
+            <source src="img/Mil Veces.mpeg" type="audio/mpeg">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+    </section>
+
+    <section class="content contact">
+        
+        <h2 class="title">Si algún día no estamoss</h2>
+
+        <p>Jamás olvidaré la manera en la que sonreía a tu lado, la manera en la que mi corazón se apaciguaba
+            cuando me abrazabas, la forma en la que me hacías sentir como si solo bastara un beso y un abrazo
+            para arreglar mi día. GRACIAS! GRACIAS, por existir, por llegar a mi vida y por ser ese rayito de 
+            esperanza que me mantiene de pie.
+            Gracias por ser parte de mis sueños y de mis aventuras, gracias por tomar mi mano y
+            ser mi copiloto en este viaje.<p>
+                
+                
+            <p>TE AMO<p>
+
+                
+    </section>
+
+    <script>
+        function toggleAudio(audioId) {
+            const audio = document.getElementById(audioId);
+            if (audio.paused) {
+                playAudio(audioId);
+            } else {
+                pauseAudio(audioId);
+            }
+        }
+
+        function playAudio(audioId) {
+            const audios = document.querySelectorAll('audio');
+            audios.forEach(audio => {
+                if (audio.id !== audioId) {
+                    audio.pause();
+                    audio.currentTime = 0;
+                }
+            });
+            const audioToPlay = document.getElementById(audioId);
+            audioToPlay.play();
+            updateSlider(audioId); // Actualiza la barra deslizante
+        }
+
+        function pauseAudio(audioId) {
+            const audioToPause = document.getElementById(audioId);
+            audioToPause.pause();
+        }
+
+        function setTime(audioId, value) {
+            const audio = document.getElementById(audioId);
+            audio.currentTime = value; // Establecer el tiempo actual
+        }
+
+        function updateSlider(audioId) {
+            const audio = document.getElementById(audioId);
+            const slider = document.querySelector(`input[type="range"][onchange="setTime('${audioId}', this.value)"]`);
+
+            slider.max = audio.duration; // Establecer el valor máximo de la barra
+            slider.value = audio.currentTime; // Actualizar la barra con el tiempo actual
+
+            audio.addEventListener('timeupdate', () => {
+                slider.value = audio.currentTime; // Actualizar la barra en tiempo real
+            });
+        }
+    </script>
+</body>
+</html>
